@@ -13,6 +13,10 @@ import javax.swing.JPanel;
  */
 public class VentanaCalculadora extends javax.swing.JFrame {
 
+    double operando1 = 0; //primer operando , double permite decimales 
+    
+    String  operacion = "";
+    
     /**
      * Creates new form VentanaCalculadora
      */
@@ -25,6 +29,7 @@ public class VentanaCalculadora extends javax.swing.JFrame {
         }
         else{
              pantalla.setText(pantalla.getText()+ numero);
+             
         }    
 }
     /**
